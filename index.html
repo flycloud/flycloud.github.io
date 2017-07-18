@@ -1,13 +1,23 @@
 ---
 layout: default
-title: 我的Blog
+title: flycloud
 ---
-<h2>{{ page.title }}</h2>
-<p>最新文章</p>
-<ul>
+
+<div id="home">
+  <h1>Blog Posts</h1>
+  <ul class="posts">
     {% for post in site.posts %}
-    <li>{{ post.date | date_to_string }}
-        <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-    </li>
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
+  </ul>
+
+  <h1>Other Interviews, Talks, Etc</h1>
+  <ul class="posts">
+    <li><span>12 Sep 2013</span> &raquo; <a href="http://www.youtube.com/watch?v=k2vJNNAQZlg">Video: Fox Business News interview</a></li>
 </ul>
+
+  <h1>Noteworthy Open Source Projects and Specifications</h1>
+  <ul class="posts">
+    <li><a href="http://github.com/jekyll/jekyll/">Jekyll:</a> A simple, blog aware, static site generator (used for this site).</li>
+  </ul>
+</div>
