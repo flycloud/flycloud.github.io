@@ -2,7 +2,7 @@
 layout: post
 title:  "chromium源码下载"
 date:   2017-07-18 17:15:11 +0800
-categories: jekyll update
+categories: chromium
 ---
 # chromium源码下载
 ## tar包下载

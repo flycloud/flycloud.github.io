@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "chromium相关网站"
-date:   2017-07-18 17:15:11 +0800
-categories: jekyll update
+date:   2017-07-18 17:10:11 +0800
+categories: chromium
 ---
 
 # chrome浏览器与chrome操作系统
